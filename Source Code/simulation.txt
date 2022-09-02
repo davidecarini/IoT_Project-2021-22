@@ -1,0 +1,245 @@
+DEBUG (1): Application booted on bracelet 1
+DEBUG (4): Application booted on bracelet 4
+DEBUG (3): Application booted on bracelet 3
+DEBUG (2): Application booted on bracelet 2
+DEBUG (1): Bracelet 1 successfully started!
+DEBUG (1): Bracelet 1 in Pairing phase
+DEBUG (2): Bracelet 2 successfully started!
+DEBUG (2): Bracelet 2 in Pairing phase
+DEBUG (4): Bracelet 4 successfully started!
+DEBUG (4): Bracelet 4 in Pairing phase
+DEBUG (3): Bracelet 3 successfully started!
+DEBUG (3): Bracelet 3 in Pairing phase
+DEBUG (1): MilliTimerBroadcastPairing Fired.
+DEBUG (1): Creating the pairing message...
+DEBUG (1): Sending the pairing message with source ID:1 
+DEBUG (3): MilliTimerBroadcastPairing Fired.
+DEBUG (3): Creating the pairing message...
+DEBUG (3): Sending the pairing message with source ID:3 
+DEBUG (4): MilliTimerBroadcastPairing Fired.
+DEBUG (4): Creating the pairing message...
+DEBUG (4): Sending the pairing message with source ID:4 
+DEBUG (2): MilliTimerBroadcastPairing Fired.
+DEBUG (2): Creating the pairing message...
+DEBUG (2): Sending the pairing message with source ID:2 
+DEBUG (3): Device 3 receives broadcast message from: 4
+DEBUG (3): The broadcast message received has the same pre-loaded key...
+DEBUG (2): Device 2 receives broadcast message from: 4
+DEBUG (2): Rejected Broadcast message
+DEBUG (1): Device 1 receives broadcast message from: 4
+DEBUG (1): Rejected Broadcast message because of different key...
+DEBUG (2): Device 2 receives broadcast message from: 3
+DEBUG (2): Rejected Broadcast message because of different key...
+DEBUG (1): Device 1 receives broadcast message from: 3
+DEBUG (1): Rejected Broadcast message
+DEBUG (4): Device 4 receives broadcast message from: 3
+DEBUG (4): The broadcast message received has the same pre-loaded key...
+DEBUG (4): 4 creates the special message to stop pairing phase...
+DEBUG (4): Special message of node 4 sent!
+ERROR (3): Ack not received!
+DEBUG (3): 3 creates the special message to stop pairing phase...
+DEBUG (3): Special message of node 3 sent!
+DEBUG (4): Device 4 receives broadcast message from: 1
+DEBUG (4): Rejected Broadcast message because of different key...
+DEBUG (3): Device 3 receives broadcast message from: 1
+DEBUG (3): Rejected Broadcast message
+DEBUG (2): Device 2 receives broadcast message from: 1
+DEBUG (2): The broadcast message received has the same pre-loaded key...
+DEBUG (3): Device 3 receives broadcast message from: 2
+DEBUG (3): Rejected Broadcast message because of different key...
+DEBUG (1): Device 1 receives broadcast message from: 2
+DEBUG (1): The broadcast message received has the same pre-loaded key...
+DEBUG (1): 1 creates the special message to stop pairing phase...
+DEBUG (1): Special message of node 1 sent!
+DEBUG (4): Device 4 receives broadcast message from: 2
+DEBUG (4): Rejected Broadcast message
+ERROR (2): Ack not received!
+DEBUG (2): 2 creates the special message to stop pairing phase...
+DEBUG (2): Special message of node 2 sent!
+DEBUG (4): Associated device 4 with 3
+DEBUG (4): 4 starts the Timer10sec
+	ACK message received at time 0:0:0.402053776
+	ACK position message received by node 3
+DEBUG (1): Associated device 1 with 2
+	ACK message received at time 0:0:0.404403616
+	ACK position message received by node 2
+ERROR (4): Ack not received!
+DEBUG (4): 4 creates the special message to stop pairing phase...
+DEBUG (4): Special message of node 4 sent!
+ERROR (1): Ack not received!
+DEBUG (1): 1 creates the special message to stop pairing phase...
+DEBUG (1): Special message of node 1 sent!
+DEBUG (3): Associated device 3 with 4
+	ACK message received at time 0:0:0.411468394
+	ACK position message received by node 4
+DEBUG (2): Associated device 2 with 1
+DEBUG (2): 2 starts the Timer10sec
+	ACK message received at time 0:0:0.417678685
+	ACK position message received by node 1
+DEBUG (2): MilliTimerBroadcastPairing Fired.
+DEBUG (1): MilliTimerBroadcastPairing Fired.
+DEBUG (3): MilliTimerBroadcastPairing Fired.
+DEBUG (4): MilliTimerBroadcastPairing Fired.
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 0 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (67,181)	Status:STANDING
+ERROR (4): Ack position message not received!
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 7 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (212,140)	Status:RUNNING
+DEBUG (2): MilliTimer10sec Fired.
+DEBUG (2): 2 creates the position message...
+DEBUG (2): Generated status 7 
+DEBUG (2): 2 send status RUNNING 
+DEBUG (2): Sending the position message: (245,211)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
+DEBUG (1): Status received (RUNNING)
+	ACK position message received by node 2
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 8 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (56,249)	Status:RUNNING
+ERROR (4): Ack position message not received!
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 1 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (133,249)	Status:STANDING
+DEBUG (3): Status received (STANDING)
+	ACK position message received by node 4
+DEBUG (2): MilliTimer10sec Fired.
+DEBUG (2): 2 creates the position message...
+DEBUG (2): Generated status 2 
+DEBUG (2): 2 send status STANDING 
+DEBUG (2): Sending the position message: (127,135)	Status:STANDING
+DEBUG (1): Status received (STANDING)
+	ACK position message received by node 2
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 1 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (192,106)	Status:STANDING
+ERROR (4): Ack position message not received!
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 9 
+DEBUG (4): 4 send status FALLING 
+DEBUG (4): Sending the position message: (101,118)	Status:FALLING
+DEBUG (2): MilliTimer10sec Fired.
+DEBUG (2): 2 creates the position message...
+DEBUG (2): Generated status 9 
+DEBUG (2): 2 send status FALLING 
+DEBUG (2): Sending the position message: (136,252)	Status:FALLING
+DEBUG (3): Status received (FALLING)
+DEBUG (3): FALL ALARM!!!.
+DEBUG (3): Position: (101,118)
+	ACK position message received by node 4
+DEBUG (1): Status received (FALLING)
+DEBUG (1): FALL ALARM!!!.
+DEBUG (1): Position: (136,252)
+	ACK position message received by node 2
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 7 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (249,164)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
+DEBUG (2): MilliTimer10sec Fired.
+DEBUG (2): 2 creates the position message...
+DEBUG (2): Generated status 6 
+DEBUG (2): 2 send status RUNNING 
+DEBUG (2): Sending the position message: (233,201)	Status:RUNNING
+DEBUG (1): Status received (RUNNING)
+	ACK position message received by node 2
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 7 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (88,227)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 3 
+DEBUG (4): 4 send status WALKING 
+DEBUG (4): Sending the position message: (188,203)	Status:WALKING
+DEBUG (3): Status received (WALKING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 0 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (49,170)	Status:STANDING
+DEBUG (3): Status received (STANDING)
+ERROR (4): Ack position message not received!
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 1 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (1,221)	Status:STANDING
+DEBUG (3): Status received (STANDING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 4 
+DEBUG (4): 4 send status WALKING 
+DEBUG (4): Sending the position message: (255,237)	Status:WALKING
+DEBUG (3): Status received (WALKING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 3 
+DEBUG (4): 4 send status WALKING 
+DEBUG (4): Sending the position message: (194,68)	Status:WALKING
+DEBUG (3): Status received (WALKING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 8 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (122,220)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
+DEBUG (1): MilliTimer60sec Fired.
+DEBUG (1): ***************************MISSING ALARM*************************
+DEBUG (1): Last Position of the child detected: (233,201)
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 4 
+DEBUG (4): 4 send status WALKING 
+DEBUG (4): Sending the position message: (24,235)	Status:WALKING
+DEBUG (3): Status received (WALKING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 9 
+DEBUG (4): 4 send status FALLING 
+DEBUG (4): Sending the position message: (229,63)	Status:FALLING
+DEBUG (3): Status received (FALLING)
+DEBUG (3): FALL ALARM!!!.
+DEBUG (3): Position: (229,63)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 6 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (11,11)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 1 
+DEBUG (4): 4 send status STANDING 
+DEBUG (4): Sending the position message: (135,149)	Status:STANDING
+DEBUG (3): Status received (STANDING)
+	ACK position message received by node 4
+DEBUG (4): MilliTimer10sec Fired.
+DEBUG (4): 4 creates the position message...
+DEBUG (4): Generated status 6 
+DEBUG (4): 4 send status RUNNING 
+DEBUG (4): Sending the position message: (101,42)	Status:RUNNING
+DEBUG (3): Status received (RUNNING)
+	ACK position message received by node 4
