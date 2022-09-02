@@ -37,3 +37,19 @@ children. If the parent’s bracelet does not receive any message, after
 one minute from the last received message a MISSING alarm is sent
 reporting the last position received.
 
+### **Requirements** 
+1. Implement the prototype with the O.S. of your choice (including application logic, message formats, etc...). The X,Y coordinates can be
+random numbers, and the kinematic status should be randomly selected
+according to the following probability distribution: P(STANDING) =
+P(WALKING) = P(RUNNING) = 0.3, P(FALLING) = 0.1. (up to
+50% of the total project points).
+2. Simulate your implementation with 2 couples of bracelets at the same
+time. Your simulation should demonstrate that your code follows the
+design requirements: if you simulate using TOSSIM, you can emulate that a node goes out of range by turning it off (i.e., calling
+mote.turnOff() in python). In Cooja, you can just move a node out
+of the communication range of the other one. (up to 75% of the total
+project points).
+3. Attach your simulation to Tossim-live or Node-red: alarm messages
+should be transmitted on the serial port and their output should be
+readable on the terminal or on the Node-Red dashboard (up to 100%
+of the total project points).
